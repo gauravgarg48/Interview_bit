@@ -26,9 +26,7 @@ string countAndSay(int A) {
                 c = 1;
             }
         }
-        tmp += to_string(c);
-        tmp += ans[i-1];
-        ans = tmp;
+        ans = tmp + to_string(c) + ans[i-1];
     }
     return ans;
 }

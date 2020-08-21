@@ -16,7 +16,7 @@ Output: 4
 Explanation: 4 occur exactly once
 */
 
-int ingleNumber(const vector<int> &A) {
+int singleNumber(const vector<int> &A) {
     int i, n = A.size(), x1, x2, x3;
     x1 = x2 = x3 = 0;
     for(i = 0; i < n; ++i) {
